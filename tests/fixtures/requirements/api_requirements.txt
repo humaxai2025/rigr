@@ -1,0 +1,29 @@
+REST API Requirements
+
+1. API Endpoints:
+   - GET /api/calculate - Retrieve calculation result
+   - POST /api/calculate - Perform calculation with operation and operands
+   - DELETE /api/calculate - Clear current result
+   - GET /api/health - Health check endpoint
+
+2. Request/Response Format:
+   - All requests shall use JSON format
+   - POST requests shall include: {"operation": "add", "operand": 5.0}
+   - Responses shall include: {"result": 10.0, "status": "success"}
+   - Error responses shall include: {"error": "message", "code": 400}
+
+3. Authentication:
+   - API shall require valid API key in header: X-API-Key
+   - Invalid keys shall return 401 Unauthorized
+   - Rate limiting shall be applied: 100 requests per minute
+
+4. Error Handling:
+   - Division by zero shall return 400 Bad Request
+   - Invalid operations shall return 400 Bad Request
+   - Missing parameters shall return 422 Unprocessable Entity
+   - Server errors shall return 500 Internal Server Error
+
+5. Performance:
+   - Response time shall be under 200ms
+   - API shall handle 500 concurrent requests
+   - Database operations shall complete within 50ms

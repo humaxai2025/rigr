@@ -1,0 +1,499 @@
+{"timestamp":"2025-08-15T03:05:09.843580Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.843693Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: None, edge_cases: 3, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.845909Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.845938Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.855126Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.855138Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.855143Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.855166Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:09.855409Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:18.239409Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.592584Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.592753Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"testprograms/backup_automation.bat\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: None, edge_cases: 3, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: true, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.594933Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.595076Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.595093Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.595200Z","level":"DEBUG","fields":{"message":"Processing file: testprograms/backup_automation.bat (Language: Batch)"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.595223Z","level":"INFO","fields":{"message":"Processing Batch file: testprograms/backup_automation.bat"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:05:23.614239Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms/backup_automation.bat"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.532988Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.533086Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: None, edge_cases: 2, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: true }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.535404Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.535422Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.535568Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.535580Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.535626Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.535646Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:37.535773Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:07:46.517016Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.506977Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.507086Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"RigrTestCases/new_formats_test\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"excel\", \"allure\", \"junit\", \"github\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.509270Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.509290Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.509455Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.509466Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.509470Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.509502Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:24.509657Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:33.282705Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.335867Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.335944Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"testprograms/backup_automation.bat\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"TestExports\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"excel\", \"allure\", \"junit\", \"github\", \"cucumber\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.338324Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.338494Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.338509Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.338610Z","level":"DEBUG","fields":{"message":"Processing file: testprograms/backup_automation.bat (Language: Batch)"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.338630Z","level":"INFO","fields":{"message":"Processing Batch file: testprograms/backup_automation.bat"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:24:45.338987Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms/backup_automation.bat"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.564983Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.565084Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"TestExports\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.567239Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.567259Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.567410Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.567419Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.567423Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.567439Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:04.567559Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:14.404512Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.495091Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.495183Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"TestExports\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"excel\", \"allure\", \"junit\", \"github\", \"cucumber\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.497221Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.497238Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.497351Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.497360Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.497364Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.497379Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:24.497471Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:27:34.533946Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.261170Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.261292Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"SimpleTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"csv\", \"json\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.263799Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.263823Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.263983Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.263996Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.264038Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.264063Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:03.264230Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:28:13.808172Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.009853Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.009971Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"ExportTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"csv\", \"json\", \"excel\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.012380Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.012397Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.012546Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.012556Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.012560Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.012576Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:38.012724Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:30:48.284659Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.206673Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.206801Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"AllFormatsTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"allure\", \"junit\", \"github\", \"cucumber\", \"zephyr\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.209289Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.209329Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.209480Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.209491Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.209496Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.209514Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:03.209631Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:14.125603Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.114220Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.114328Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"MoreFormatsTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"testlink\", \"confluence\", \"postman\", \"robot\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.116613Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.116632Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.116785Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.116796Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.116800Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.116816Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:29.116931Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:40.047730Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.732855Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.732940Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"AllExportFormats\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"all\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.735283Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.735306Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.735453Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.735464Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.735469Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.735488Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:31:48.735595Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T03:32:00.659973Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:03:16.868675Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:03:16.868811Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"non_existent_file.rs\"), requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:03:16.878716Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:03:16.878909Z","level":"ERROR","fields":{"message":"Error collecting source files: Failed to read file: File not found: non_existent_file.rs"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.129577Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.129685Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"non_existent_file.rs\"), requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.133006Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.133174Z","level":"ERROR","fields":{"message":"Error collecting source files: Failed to read file: File not found: non_existent_file.rs"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.261100Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.261165Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: None, github: None, directory: Some(\"tests/fixtures/source_files\"), unit_only: true, integration_only: false, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmpQ2MFXi\"), edge_cases: 3, concurrency: 1, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.263135Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.266691Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 1"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.266704Z","level":"INFO","fields":{"message":"Starting analysis of 9 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.266751Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files\\calculator.c (Language: C)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.266769Z","level":"INFO","fields":{"message":"Processing C file: tests/fixtures/source_files\\calculator.c"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.275139Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: tests/fixtures/source_files\\calculator.c"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.836400Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.836429Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: None, github: None, directory: Some(\"tests/fixtures/source_files\"), unit_only: true, integration_only: false, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmpNBJsMo\"), edge_cases: 5, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.838362Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.842585Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.842596Z","level":"INFO","fields":{"message":"Starting analysis of 9 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.842622Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files\\calculator.c (Language: C)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.842656Z","level":"INFO","fields":{"message":"Processing C file: tests/fixtures/source_files\\calculator.c"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.842633Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files\\calculator.java (Language: Java)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.842678Z","level":"INFO","fields":{"message":"Processing Java file: tests/fixtures/source_files\\calculator.java"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.842984Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: tests/fixtures/source_files\\calculator.c"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:35.853920Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: tests/fixtures/source_files\\calculator.java"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.427681Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.427708Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"tests/fixtures/source_files/calculator.java\"), requirements: None, github: None, directory: None, unit_only: false, integration_only: true, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmpJ5h8yW\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.429601Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.429705Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.429712Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.429743Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files/calculator.java (Language: Java)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.429754Z","level":"INFO","fields":{"message":"Processing Java file: tests/fixtures/source_files/calculator.java"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.712544Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.712578Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"tests/fixtures/source_files/calculator.js\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmpF7as8R\"), edge_cases: 10, concurrency: 2, include_performance: true, include_security: true, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.714735Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.714932Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.714945Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.714984Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files/calculator.js (Language: JavaScript)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.714996Z","level":"INFO","fields":{"message":"Processing JavaScript file: tests/fixtures/source_files/calculator.js"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:36.729867Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: tests/fixtures/source_files/calculator.js"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.000282Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.000310Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"tests/fixtures/source_files/calculator.py\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmp38lUvm\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"csv\", \"json\", \"markdown\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.002191Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.002325Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.002334Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.002364Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files/calculator.py (Language: Python)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.002380Z","level":"INFO","fields":{"message":"Processing Python file: tests/fixtures/source_files/calculator.py"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.002597Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: tests/fixtures/source_files/calculator.py"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.323805Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.323839Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"tests/fixtures/source_files/calculator.rs\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmpfvYvJm\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.326378Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.326513Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.326525Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.326551Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files/calculator.rs (Language: Rust)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.326566Z","level":"INFO","fields":{"message":"Processing Rust file: tests/fixtures/source_files/calculator.rs"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.326799Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: tests/fixtures/source_files/calculator.rs"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.613459Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.613489Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmpLXMEVP.xyz\"), requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.615790Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.615893Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.615901Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.906287Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.906358Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"tests/fixtures/source_files/calculator.c\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmp895VEv\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: true, debug: true }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.908580Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.908747Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.908764Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.908823Z","level":"DEBUG","fields":{"message":"Processing file: tests/fixtures/source_files/calculator.c (Language: C)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.908843Z","level":"INFO","fields":{"message":"Processing C file: tests/fixtures/source_files/calculator.c"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:37.909122Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: tests/fixtures/source_files/calculator.c"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.197539Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.197581Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"tests/fixtures/requirements/calculator_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"C:\\\\Users\\\\Sriram\\\\AppData\\\\Local\\\\Temp\\\\.tmp4o5dNd\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.199722Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.199743Z","level":"INFO","fields":{"message":"Processing requirements file: tests/fixtures/requirements/calculator_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.210542Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.210561Z","level":"DEBUG","fields":{"message":"Content length: 1306 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.210567Z","level":"INFO","fields":{"message":"Processing txt file with 1306 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.210598Z","level":"INFO","fields":{"message":"Detected requirements type: UI Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:38.210661Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:20:47.566843Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:23:48.859087Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:23:48.859181Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"game_engine.cpp\"), requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:23:48.861355Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:23:48.861637Z","level":"ERROR","fields":{"message":"Error collecting source files: Failed to read file: File not found: game_engine.cpp"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.490627Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.490707Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\".\\\\testprograms\\\\game_engine.cpp\"), requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.492977Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.493243Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.493254Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.493334Z","level":"DEBUG","fields":{"message":"Processing file: .\\testprograms\\game_engine.cpp (Language: C++)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.493349Z","level":"INFO","fields":{"message":"Processing C++ file: .\\testprograms\\game_engine.cpp"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:24:05.493653Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: .\\testprograms\\game_engine.cpp"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:20.505609Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:20.505692Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: true, file: None, requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:52.799880Z","level":"INFO","fields":{"message":"Setup completed successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.472833Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.472910Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\".\\\\testprograms\\\\game_engine.cpp\"), requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.475105Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.475359Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.475369Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.475420Z","level":"DEBUG","fields":{"message":"Processing file: .\\testprograms\\game_engine.cpp (Language: C++)"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.475434Z","level":"INFO","fields":{"message":"Processing C++ file: .\\testprograms\\game_engine.cpp"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:25:57.475719Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: .\\testprograms\\game_engine.cpp"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:26:36.979316Z","level":"INFO","fields":{"message":"Unit test cases saved: E:\\aiutils\\rigr\\RigrTestCases\\game_engine\\UnitTestCases\\game_engine_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.410517Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.410616Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.413097Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.413182Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.413352Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.413364Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.413407Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.413507Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:23.413678Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:29.754777Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:29.754869Z","level":"INFO","fields":{"message":"Starting integration test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:32:37.620311Z","level":"INFO","fields":{"message":"Integration test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:09.077793Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:09.077874Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"cucumber\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:09.079953Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:09.080201Z","level":"ERROR","fields":{"message":"Error collecting source files: Failed to read file: Please specify either --file, --directory, --requirements, or --github option"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.725195Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.725276Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"cucumber\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.727575Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.727673Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.727849Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.727860Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.727865Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.727952Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:28.728103Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:41.437118Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:41.437236Z","level":"INFO","fields":{"message":"Starting integration test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:34:49.003825Z","level":"INFO","fields":{"message":"Integration test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.685975Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.686071Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: true, include_security: true, export: Some([\"testrai\", \"junit\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.688479Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.688568Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.688729Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.688740Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.688745Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.688841Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:24.689018Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:32.710915Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:32.711015Z","level":"INFO","fields":{"message":"Starting integration test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:40.852621Z","level":"INFO","fields":{"message":"Integration test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:40.852716Z","level":"INFO","fields":{"message":"Starting performance test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:48.531975Z","level":"INFO","fields":{"message":"Performance test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:36:48.532077Z","level":"INFO","fields":{"message":"Starting security test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T09:37:04.491756Z","level":"INFO","fields":{"message":"Security test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:33.441270Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:33.441380Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"sample_requirements\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:33.443551Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:33.443902Z","level":"ERROR","fields":{"message":"Error collecting source files: Failed to read file: File not found: sample_requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:38.538361Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:38.538444Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"sample_requirements.txt\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:38.540468Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:38.540730Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:17:38.540742Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.096829Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.096912Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.098995Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.099074Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.100359Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.100370Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.100376Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.100452Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:02.100595Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T10:18:13.854408Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.899598Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.900295Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"BasicTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.902493Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.902512Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.904230Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.904248Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.904267Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.904291Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:09:29.904437Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:11:24.879248Z","level":"ERROR","fields":{"message":"Unit test case generation failed: HTTP request failed: OpenAI request failed: error sending request for url (https://api.openai.com/v1/chat/completions)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:11:36.198373Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:11:36.198476Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: true, file: None, requirements: None, github: None, directory: None, unit_only: false, integration_only: false, output: None, edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:11:36.198597Z","level":"ERROR","fields":{"message":"Setup failed: Failed to parse file: Selection failed: IO error: not a terminal"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.414661Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.414750Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"simple_test.py\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"FileTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.417045Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.417169Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.417177Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.417222Z","level":"DEBUG","fields":{"message":"Processing file: simple_test.py (Language: Python)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.417237Z","level":"INFO","fields":{"message":"Processing Python file: simple_test.py"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:03.425232Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: simple_test.py"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:12:37.877925Z","level":"INFO","fields":{"message":"Unit test cases saved: FileTest\\RigrTestCases\\simple\\UnitTestCases\\simple_test_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.155889Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.155970Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"ExportTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"csv\", \"json\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.158163Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.158187Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.159322Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.159332Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.159340Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.159378Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:34.159446Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:48.376809Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.824093Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.824188Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"ExcelTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"csv\", \"json\", \"excel\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.826095Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.826114Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.827481Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.827495Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.827556Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.827577Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:13:56.827674Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:06.018306Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.013793Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.013869Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"AllFormatsTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"allure\", \"junit\", \"github\", \"cucumber\", \"zephyr\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.015880Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.015901Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.017135Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.017145Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.017153Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.017168Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:10.017241Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:23.688907Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.356122Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.356237Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"MoreFormatsTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"testlink\", \"confluence\", \"postman\", \"robot\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.359000Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.359025Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.360469Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.360482Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.360491Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.360507Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:29.360590Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:40.252828Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.098430Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.098555Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: Some(\"sample_requirements.txt\"), github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"AllExportFormats\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: Some([\"all\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.100646Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.100665Z","level":"INFO","fields":{"message":"Processing requirements file: sample_requirements.txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.101889Z","level":"DEBUG","fields":{"message":"File type: txt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.101920Z","level":"DEBUG","fields":{"message":"Content length: 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.101939Z","level":"INFO","fields":{"message":"Processing txt file with 1499 characters"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.101973Z","level":"INFO","fields":{"message":"Detected requirements type: API Requirements"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:46.102136Z","level":"INFO","fields":{"message":"Starting unit test case generation"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:14:53.134208Z","level":"INFO","fields":{"message":"Unit test cases generated successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.671585Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.671669Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"testprograms/simple_math.ada\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"AdaTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.673605Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.673710Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.673717Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.673755Z","level":"DEBUG","fields":{"message":"Processing file: testprograms/simple_math.ada (Language: Ada)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.673770Z","level":"INFO","fields":{"message":"Processing Ada file: testprograms/simple_math.ada"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:15:07.674075Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms/simple_math.ada"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:09.103980Z","level":"INFO","fields":{"message":"Unit test cases saved: AdaTest\\RigrTestCases\\simple_math\\UnitTestCases\\simple_math_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.570583Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.570670Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"testprograms/BankingSystem.java\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"JavaTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.572641Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.572795Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.572845Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.572885Z","level":"DEBUG","fields":{"message":"Processing file: testprograms/BankingSystem.java (Language: Java)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.572900Z","level":"INFO","fields":{"message":"Processing Java file: testprograms/BankingSystem.java"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:16:18.573150Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms/BankingSystem.java"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:03.077028Z","level":"INFO","fields":{"message":"Unit test cases saved: JavaTest\\RigrTestCases\\BankingSystem\\UnitTestCases\\BankingSystem_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.715013Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.715093Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: None, github: None, directory: Some(\"testprograms\"), unit_only: true, integration_only: false, output: Some(\"DirectoryTest\"), edge_cases: 10, concurrency: 4, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.717150Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720823Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 4"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720832Z","level":"INFO","fields":{"message":"Starting analysis of 19 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720865Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\backup_automation.bat (Language: Batch)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720884Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\banking_system.cbl (Language: COBOL)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720892Z","level":"INFO","fields":{"message":"Processing Batch file: testprograms\\backup_automation.bat"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720872Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\BankingSystem.java (Language: Java)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720890Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\blockchain_ledger.rs (Language: Rust)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720906Z","level":"INFO","fields":{"message":"Processing COBOL file: testprograms\\banking_system.cbl"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720946Z","level":"INFO","fields":{"message":"Processing Rust file: testprograms\\blockchain_ledger.rs"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.720929Z","level":"INFO","fields":{"message":"Processing Java file: testprograms\\BankingSystem.java"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.721238Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\banking_system.cbl"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.721246Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\backup_automation.bat"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.721260Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\blockchain_ledger.rs"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:17:12.721307Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\BankingSystem.java"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:04.105831Z","level":"INFO","fields":{"message":"Unit test cases saved: DirectoryTest\\RigrTestCases\\backup_automation\\UnitTestCases\\backup_automation_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:04.105892Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\complex_ecommerce.ts (Language: TypeScript)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:04.105938Z","level":"INFO","fields":{"message":"Processing TypeScript file: testprograms\\complex_ecommerce.ts"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:04.106287Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\complex_ecommerce.ts"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:09.229628Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\DirectoryTest\\RigrTestCases\\banking_system\\UnitTestCases\\banking_system_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:09.229675Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\crypto_processor.asm (Language: Assembly)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:09.229683Z","level":"INFO","fields":{"message":"Processing Assembly file: testprograms\\crypto_processor.asm"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:09.230081Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\crypto_processor.asm"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:52.118955Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\DirectoryTest\\RigrTestCases\\complex_ecommerce\\UnitTestCases\\complex_ecommerce_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:52.119004Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\distributed_cache.go (Language: Go)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:52.119011Z","level":"INFO","fields":{"message":"Processing Go file: testprograms\\distributed_cache.go"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:18:52.119324Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\distributed_cache.go"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:19:00.313217Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\DirectoryTest\\RigrTestCases\\crypto_processor\\UnitTestCases\\crypto_processor_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:19:00.313264Z","level":"DEBUG","fields":{"message":"Processing file: testprograms\\employee_management.sql (Language: PL/SQL)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:19:00.313272Z","level":"INFO","fields":{"message":"Processing PL/SQL file: testprograms\\employee_management.sql"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:19:00.313597Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: testprograms\\employee_management.sql"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:24:56.270516Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:24:56.270623Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"test_calculator.kt\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"KotlinTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:24:56.272679Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:24:56.272819Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:24:56.272828Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.096663Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.096776Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"test_calculator.kt\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"KotlinTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.098775Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.098889Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.098896Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.098938Z","level":"DEBUG","fields":{"message":"Processing file: test_calculator.kt (Language: Kotlin)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.098957Z","level":"INFO","fields":{"message":"Processing Kotlin file: test_calculator.kt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:35.107919Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: test_calculator.kt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:26:55.559081Z","level":"INFO","fields":{"message":"Unit test cases saved: KotlinTest\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.401577Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.401657Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"test_calculator.swift\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"SwiftTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.403800Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.403907Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.403914Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.403945Z","level":"DEBUG","fields":{"message":"Processing file: test_calculator.swift (Language: Swift)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.403961Z","level":"INFO","fields":{"message":"Processing Swift file: test_calculator.swift"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:00.411171Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: test_calculator.swift"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:33.758442Z","level":"INFO","fields":{"message":"Unit test cases saved: SwiftTest\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.503192Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.503276Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"test_calculator.php\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"PHPTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.505174Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.505285Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.505292Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.505329Z","level":"DEBUG","fields":{"message":"Processing file: test_calculator.php (Language: PHP)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.505343Z","level":"INFO","fields":{"message":"Processing PHP file: test_calculator.php"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:45.529716Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: test_calculator.php"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:27:59.858751Z","level":"INFO","fields":{"message":"Unit test cases saved: PHPTest\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.034114Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.034198Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"test_calculator.rb\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"RubyTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.036329Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.036452Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.036460Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.036496Z","level":"DEBUG","fields":{"message":"Processing file: test_calculator.rb (Language: Ruby)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.036509Z","level":"INFO","fields":{"message":"Processing Ruby file: test_calculator.rb"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:28:33.044409Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: test_calculator.rb"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:05.110431Z","level":"INFO","fields":{"message":"Unit test cases saved: RubyTest\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.911628Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.911710Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"test_calculator.scala\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"ScalaTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.913639Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.913742Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.913749Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.913787Z","level":"DEBUG","fields":{"message":"Processing file: test_calculator.scala (Language: Scala)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.913802Z","level":"INFO","fields":{"message":"Processing Scala file: test_calculator.scala"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:09.925042Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: test_calculator.scala"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:27.123078Z","level":"INFO","fields":{"message":"Unit test cases saved: ScalaTest\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.107140Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.107229Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: Some(\"test_calculator.groovy\"), requirements: None, github: None, directory: None, unit_only: true, integration_only: false, output: Some(\"GroovyTest\"), edge_cases: 10, concurrency: 2, include_performance: false, include_security: false, export: None, verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.109368Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.109517Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 2"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.109526Z","level":"INFO","fields":{"message":"Starting analysis of 1 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.109561Z","level":"DEBUG","fields":{"message":"Processing file: test_calculator.groovy (Language: Groovy)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.109581Z","level":"INFO","fields":{"message":"Processing Groovy file: test_calculator.groovy"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:29:33.117385Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: test_calculator.groovy"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:30:00.704330Z","level":"INFO","fields":{"message":"Unit test cases saved: GroovyTest\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:30:37.964268Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:30:37.964353Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: None, github: None, directory: Some(\"new_languages_test\"), unit_only: true, integration_only: false, output: Some(\"AllNewLanguagesBatch\"), edge_cases: 10, concurrency: 6, include_performance: false, include_security: false, export: Some([\"csv\", \"json\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:30:37.966263Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:30:37.969492Z","level":"WARN","fields":{"message":"No source files found"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.156383Z","level":"DEBUG","fields":{"message":"Logging system initialized"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.156498Z","level":"INFO","fields":{"message":"Rigr started with args: Args { setup: false, file: None, requirements: None, github: None, directory: Some(\"new_languages_test\"), unit_only: true, integration_only: false, output: Some(\"AllNewLanguagesBatch\"), edge_cases: 10, concurrency: 6, include_performance: false, include_security: false, export: Some([\"csv\", \"json\"]), verbose: false, debug: false }"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.158846Z","level":"DEBUG","fields":{"message":"Configuration loaded successfully"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162143Z","level":"DEBUG","fields":{"message":"Processing with concurrency limit: 6"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162152Z","level":"INFO","fields":{"message":"Starting analysis of 6 files"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162212Z","level":"DEBUG","fields":{"message":"Processing file: new_languages_test\\test_calculator.php (Language: PHP)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162206Z","level":"DEBUG","fields":{"message":"Processing file: new_languages_test\\test_calculator.groovy (Language: Groovy)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162231Z","level":"DEBUG","fields":{"message":"Processing file: new_languages_test\\test_calculator.rb (Language: Ruby)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162228Z","level":"INFO","fields":{"message":"Processing PHP file: new_languages_test\\test_calculator.php"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162258Z","level":"DEBUG","fields":{"message":"Processing file: new_languages_test\\test_calculator.swift (Language: Swift)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162245Z","level":"INFO","fields":{"message":"Processing Groovy file: new_languages_test\\test_calculator.groovy"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162241Z","level":"DEBUG","fields":{"message":"Processing file: new_languages_test\\test_calculator.scala (Language: Scala)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162258Z","level":"INFO","fields":{"message":"Processing Ruby file: new_languages_test\\test_calculator.rb"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162215Z","level":"DEBUG","fields":{"message":"Processing file: new_languages_test\\test_calculator.kt (Language: Kotlin)"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162385Z","level":"INFO","fields":{"message":"Processing Kotlin file: new_languages_test\\test_calculator.kt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162306Z","level":"INFO","fields":{"message":"Processing Scala file: new_languages_test\\test_calculator.scala"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162283Z","level":"INFO","fields":{"message":"Processing Swift file: new_languages_test\\test_calculator.swift"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162927Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: new_languages_test\\test_calculator.rb"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162938Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: new_languages_test\\test_calculator.kt"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162951Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: new_languages_test\\test_calculator.php"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162934Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: new_languages_test\\test_calculator.groovy"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162960Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: new_languages_test\\test_calculator.scala"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:23.162972Z","level":"DEBUG","fields":{"message":"Starting unit test generation for: new_languages_test\\test_calculator.swift"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:34.422471Z","level":"INFO","fields":{"message":"Unit test cases saved: AllNewLanguagesBatch\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:45.935693Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\AllNewLanguagesBatch\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:53.670120Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\AllNewLanguagesBatch\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:55.126162Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\AllNewLanguagesBatch\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:33:58.950626Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\AllNewLanguagesBatch\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
+{"timestamp":"2025-08-15T13:34:12.403119Z","level":"INFO","fields":{"message":"Unit test cases saved: \\\\?\\E:\\aiutils\\rigr\\AllNewLanguagesBatch\\RigrTestCases\\calculator\\UnitTestCases\\test_calculator_unit_test_cases.md"},"target":"rigr"}
